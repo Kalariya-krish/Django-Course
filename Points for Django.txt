@@ -1,0 +1,22 @@
+==> How to install Django
+	pip install django
+
+==>How to install django in virtual environment
+	pip install virtualenv
+	virtualenv myenv
+	myenv\Scripts\activate
+	source myenv/bin/activate
+
+==>varify django installation
+	django-admin --version
+
+==>create projects in django
+	first go to that directory where you want to save your all djnago projects
+	open folder in cmd
+	django-admin startproject project_name
+
+==>run project
+	python manage.py runserver
+
+
+	
